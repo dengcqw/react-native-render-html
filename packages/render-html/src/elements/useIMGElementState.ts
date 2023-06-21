@@ -143,7 +143,7 @@ export default function useIMGElementState(
     error,
     alt,
     altColor,
-    concreteDimensions,
+    concreteDimensions: concreteDimensions && {width: Math.ceil(concreteDimensions.width), height: Math.ceil(concreteDimensions.height)} as ImageDimensions,
     containerStyle: flatStyle,
     initialDimensions,
     objectFit,

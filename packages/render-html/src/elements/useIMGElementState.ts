@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Image, ImageURISource } from 'react-native';
+import { Image, ImageURISource, StyleSheet } from 'react-native';
 import {
   UseIMGElementStateProps,
   IMGElementState,
